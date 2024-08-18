@@ -32,6 +32,7 @@ body{
 
 .off-screen-menu li {
     margin: 20px 0; 
+    font-weight: bold;
 }
 
 nav{
@@ -78,4 +79,62 @@ nav{
 
 .ham-menu.active span:nth-child(2){
     opacity: 0;
+}
+
+.logo{
+    position: absolute;
+    height: auto;
+    width: 250px;
+    left: 10px;
+    scale: 0.2px;
+}
+
+.hero-container{
+    background-color: #F5F7FA;
+    width: 100%;
+    height: fit-content;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-img{
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    padding: 20px;
+}
+
+.hero-text{
+    padding: 0px 20px;
+    font-size: 2.8em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.wrap{
+    text-wrap: pretty;
+}
+
+.hero-text-green{
+    color: #4CAF4F;
+}
+
+.subtext{
+    font-size: 1.5rem;
+    color: #959595;
+}
+
+.hero-text button{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 1rem;
 }
