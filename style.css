@@ -5,6 +5,14 @@ body{
     color: #505050;
 }
 
+li,button,.read-more{
+    cursor: pointer;
+}
+
+.social-logos i{
+    cursor: pointer;
+}
+
 .off-screen-menu{
     background-color: #74c977;
     height:100vh;
@@ -177,7 +185,7 @@ nav{
     align-items: center;
     margin-top: 2rem;
     border-radius: 1.5rem;
-    padding: 1rem;
+    padding: 2rem 1rem;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.05);
 }
 
