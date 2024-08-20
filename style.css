@@ -265,7 +265,7 @@ i{
 
 .pic-overlay{
     height: 15rem;
-    width: 20rem;
+    max-width: 15rem;
     margin-top: -7rem;
     z-index: 2;
     background-color: white;
@@ -275,7 +275,7 @@ i{
 
 .pic-overlay .title{
     color: #939494;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: 1rem 0;
 }
 
